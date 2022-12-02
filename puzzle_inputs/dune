@@ -1,0 +1,7 @@
+(install
+ (section
+  (site
+   (aoc22 puzzle_inputs)))
+ (files
+  (day1-1 as day1-1)
+  (day1-test1 as day1-test1)))

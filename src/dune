@@ -1,7 +1,11 @@
 (library
- (name aoc22)
- (libraries core)
+ (name aoc2022)
+ (libraries core dune-site)
  (inline_tests)
  (flags -open Core)
  (preprocess
   (pps ppx_jane)))
+
+(generate_sites_module
+ (module sites)
+ (sites aoc22))

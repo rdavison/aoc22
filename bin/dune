@@ -1,7 +1,7 @@
 (executable
  (name main)
- (public_name aoc22)
- (libraries aoc22 core_unix.command_unix core_unix.sys_unix)
+ (public_name aoc2022)
+ (libraries aoc2022 core_unix.command_unix core_unix.sys_unix)
  (preprocess
   (pps ppx_jane))
  (modules main))
